@@ -1,0 +1,27 @@
+/*
+ * CameraState.h
+ *
+ *  Created on: Sep 7, 2024
+ *      Author: alesh
+ */
+
+#ifndef CRCAMERADRIVER_CAMERASTATE_H_
+#define CRCAMERADRIVER_CAMERASTATE_H_
+
+typedef enum {
+	INITIALIZED,
+	NOT_INITIALIZED,
+	READY,
+	CAPTURE,
+	ERROR_CAPTURE,
+	ERROR_INITIALIZATION,
+	ERROR_REGISTER,
+	SLEEP,
+	INITIALIZATION,
+	DEFAULT,
+
+} CameraState;
+
+
+
+#endif /* CRCAMERADRIVER_CAMERASTATE_H_ */
